@@ -1,0 +1,109 @@
+body{
+    background-image: url("https://www.rollingstone.com/wp-content/uploads/2021/09/RS_500_Great_Songs_1800x1200.jpg") ;
+}
+.head{
+    background-color: #92af3ac0;
+    height: 70px;
+    width: 100%;
+}
+#logo{
+    position: relative;
+    top: 18%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 250%;
+    color: #F9F98A;
+
+}
+#home{
+    position: absolute;
+    top: 1.5%;
+    left: 60%;
+    text-decoration: none;
+    font-size: 150%;
+    background-color: #B7B727;
+    height: 40px;
+    padding-top: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Goldman', cursive;
+    color: #ffff;
+    border-radius: 25px;
+}
+
+#reg{
+    position: absolute;
+    top: 1.5%;
+    left: 85%;
+    text-decoration: none;
+    font-size: 150%;
+    background-color: #B7B727;
+    height: 40px;
+    padding-top: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Goldman', cursive;
+    color: #ffff;
+    border-radius: 25px;
+}
+#log{
+    position: absolute;
+    top: 1.5%;
+    left: 77%;
+    text-decoration: none;
+    font-size: 150%;
+    background-color: #B7B727;
+    height: 40px;
+    padding-top: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Goldman', cursive;
+    color: #ffff;
+    border-radius: 25px;
+}
+#help{
+    position: absolute;
+    top: 1.5%;
+    left: 69%;
+    text-decoration: none;
+    font-size: 150%;
+    background-color: #B7B727;
+    height: 40px;
+    padding-top: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Goldman', cursive;
+    color: #ffff;
+    border-radius: 25px;
+}
+#prof{
+    position: absolute;
+    top: 25px;
+    left: 96%;  
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    color: #ffff;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Goldman', cursive;
+    
+}
+#st{
+    position: absolute;
+    top: 70%;
+    left: 43.5%;
+    text-decoration: none;
+    font-size: 150%;
+    background-color: #B7B727;
+    height: 40px;
+    padding-top: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Goldman', cursive;
+    color: #ffff;
+    border-radius: 25px;
+}

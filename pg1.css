@@ -1,0 +1,755 @@
+body{
+    background-color: #272A3D;
+}
+#leftscr{
+    position: fixed;
+}
+#logo{
+    position: absolute;
+    top: 8%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #A5B5E3;
+}
+#browse{
+    position: absolute;
+    top: 14%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}
+#dis{
+    position: absolute;
+    top: 18%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#disi{
+    position: absolute;
+    right: 111%;
+    height: 30px;
+}
+#dis:hover{
+    position: absolute;
+    top: 18%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+#sg{
+    position: absolute;
+    top: 22.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#sgi{
+    position: absolute;
+    right: 116%;
+    height: 30px;
+}
+#sg:hover{
+    position: absolute;
+    top: 22.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#tc{
+    position: absolute;
+    top: 28.5%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#tci{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#tc:hover{
+    position: absolute;
+    top: 28.5%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#art{
+    position: absolute;
+    top: 33.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#arti{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#art:hover{
+    position: absolute;
+    top: 33.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#playlist{
+    position: absolute;
+    top: 43%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}
+
+#fav{
+    position: absolute;
+    top: 47.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#favi{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#fav:hover{
+    position: absolute;
+    top: 47.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#rep{
+    position: absolute;
+    top: 53%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#repi{
+    position: absolute;
+    right: 119%;
+    height: 30px;
+}
+#rep:hover{
+    position: absolute;
+    top: 53%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#songs{
+    position: absolute;
+    top: 59%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#per{
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#shy{
+    position: absolute;
+    top: 67%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+    
+#ws{
+    position: absolute;
+    top: 71%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+
+#per:hover{
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#shy:hover{
+    position: absolute;
+    top: 67%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+    
+#ws:hover{
+    position: absolute;
+    top: 71%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+.cont{
+    background-color: #1D2238;
+    height: 85%;
+    width: 74%;
+    position: absolute;
+    left: 26%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+h1{
+    color: #fff;
+    position: fixed;
+    top: 7%;
+    font-family: 'Goldman', cursive;
+    left: 30.6%;
+    font-size: 450%;
+}
+#te{
+    position: fixed;
+    top: 20%;
+    left: 27.7%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #ffffffb1;
+}   
+
+#pla{
+    position: fixed;
+    top: 33%;
+    left: 31.5%;
+    height: 3%;
+    width: 7%;
+    padding-top: 4px;
+    border-radius: 15px;
+    background-color: #0385bd;
+    text-decoration: none;
+    color: #fff;
+    font-family: Goldman;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#pla:hover{
+    position: fixed;
+    top: 33%;
+    left: 31.5%;
+    height: 3%;
+    width: 7%;
+    padding-top: 4px;
+    border-radius: 15px;
+    background-color: #0385bd;
+    text-decoration: underline;
+    color: #fff;
+    font-family: Goldman;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#plai{
+    position: relative;
+    left: 73%;
+    top: 2px;
+    height: 60%;
+}
+#artist{
+    position: fixed;
+    top: 36%;
+    left: 32%;
+    width: 74px;
+    height: 11px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+.al:hover{
+    position: relative;
+    top: 49%;
+    left: 6%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#alani{
+   position: absolute;
+   height: 75%;
+   width: 85% ;
+   padding-top: 12px;
+   padding-left: 15px;
+}
+#alan{
+    position: relative;
+    top: 82%;
+    left: 25%;
+    width: 75px;
+    height: 9px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+.al{
+    position: relative;
+    top: 50%;
+    left: 6%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+#artist1{
+    position: relative;
+    top: 90%;
+    right: 31px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+
+.jb:hover{
+    position: relative;
+    top: 12%;
+    left: 23%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#justini{
+   position: absolute;
+   height: 75%;
+   width: 85% ;
+   padding-top: 12px;
+   padding-left: 15px;
+}
+#justin{
+    position: relative;
+    top: 82%;
+    left: 25%;
+    width: 75px;
+    height: 9px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+.jb{
+    position: relative;
+    top: 13%;
+    left: 23%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+#artist2{
+    position: relative;
+    top: 90%;
+    right: 31px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+
+
+.weeknd{
+    position: relative;
+    bottom: 24%;
+    left: 40%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.weeknd:hover{
+    position: relative;
+    bottom: 25%;
+    left: 40%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#weekndi{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #weekndn{
+     position: relative;
+     top: 82%;
+     left: 25%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist3{
+    position: relative;
+    top: 90%;
+    right: 31px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+.ed{
+    position: relative;
+    left: 57%;
+    bottom: 61%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.ed:hover{
+    position: relative;
+    left: 57%;
+    bottom: 62%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#edi{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #ed{
+     position: relative;
+     top: 82%;
+     left: 25%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist4{
+    position: relative;
+    top: 90%;
+    right: 31px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+.oned{
+    position: relative;
+    left: 74%;
+    bottom: 98%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.oned:hover{
+    position: relative;
+    left: 74%;
+    bottom: 99%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#onedi{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #oned{
+     position: relative;
+     top: 82%;
+     left: 25%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist5{
+    position: relative;
+    top: 90%;
+    right: 31px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+
+.bp{
+    position: relative;
+    left: 91%;
+    bottom: 135%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.bp:hover{
+    position: relative;
+    left: 91%;
+    bottom: 136%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#bpi{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #bp{
+     position: relative;
+     top: 82%;
+     left: 25%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist6{
+    position: absolute;
+    top: 90%;
+    right: 90px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+.kt{
+    position: relative;
+    left: 108%;
+    bottom: 172%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.kt:hover{
+    position: relative;
+    left: 108%;
+    bottom: 173%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#kti{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #kt{
+     position: relative;
+     top: 82%;
+     left: 25%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist7{
+    position: absolute;
+    top: 90%;
+    right: 90px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+
+.bts{
+    position: relative;
+    left: 127%;
+    bottom: 209%;
+    border-radius: 5px;
+    height: 37% ;
+    width: 17%;
+}
+.bts:hover{
+    position: relative;
+    left: 127%;
+    bottom: 210%;
+    border-radius: 5px;
+    background-color: #272A3D;
+    height: 37% ;
+    width: 17%;
+}
+#btsi{
+    position: absolute;
+    height: 75%;
+    width: 85% ;
+    padding-top: 12px;
+    padding-left: 15px;
+ }
+ #bts{
+     position: relative;
+     top: 82%;
+     left: 37%;
+     width: 75px;
+     height: 9px;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Goldman;
+     font-size: 100%;
+     font-style: normal;
+     line-height: normal;
+     text-decoration: none;
+ }
+ #artist8{
+    position: absolute;
+    top: 90%;
+    right: 90px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+}
+#frd1{
+    position: absolute;
+    top: 16.7%;
+    left: 26%;
+    height: 40px;
+}
+#bcd1{
+    position: absolute;
+    top: 16.7%;
+    left: 30%;
+    height: 40px;
+}

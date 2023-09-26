@@ -1,0 +1,786 @@
+body{
+    background-color: #272A3D;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+#leftscr{
+    position: fixed;
+}
+#logo{
+    position: absolute;
+    top: 8%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #A5B5E3;
+}
+#browse{
+    position: absolute;
+    top: 14%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}
+#dis{
+    position: absolute;
+    top: 18%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#disi{
+    position: absolute;
+    right: 111%;
+    height: 30px;
+}
+#dis:hover{
+    position: absolute;
+    top: 18%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+#sg{
+    position: absolute;
+    top: 22.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#sgi{
+    position: absolute;
+    right: 116%;
+    height: 30px;
+}
+#sg:hover{
+    position: absolute;
+    top: 22.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#tc{
+    position: absolute;
+    top: 28.5%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#tci{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#tc:hover{
+    position: absolute;
+    top: 28.5%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#art{
+    position: absolute;
+    top: 33.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#arti{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#art:hover{
+    position: absolute;
+    top: 33.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#playlist{
+    position: absolute;
+    top: 43%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}
+
+#fav{
+    position: absolute;
+    top: 47.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#favi{
+    position: absolute;
+    right: 112%;
+    height: 30px;
+}
+#fav:hover{
+    position: absolute;
+    top: 47.9%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#rep{
+    position: absolute;
+    top: 53%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+#repi{
+    position: absolute;
+    right: 119%;
+    height: 30px;
+}
+#rep:hover{
+    position: absolute;
+    top: 53%;
+    font-size: 140%;
+    color: #fff;
+    left: 8%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+}
+
+#songs{
+    position: absolute;
+    top: 59%;
+    left: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#per{
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#shy{
+    position: absolute;
+    top: 67%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+    
+#ws{
+    position: absolute;
+    top: 71%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+
+#per:hover{
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+#shy:hover{
+    position: absolute;
+    top: 67%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+    
+#ws:hover{
+    position: absolute;
+    top: 71%;
+    left: 2%;
+    margin-left: 4%;
+    text-decoration: underline;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #fff;
+}  
+.cont{
+    background-color: #1D2238;
+    overflow-y: scroll;
+    height: 85%;
+    width: 74%;
+    position: absolute;
+    left: 26%;
+}
+h1{
+    color: #fff;
+    position: fixed;
+    top: 7%;
+    font-family: 'Goldman', cursive;
+    left: 30.6%;
+    font-size: 450%;
+}
+#te{
+    position: fixed;
+    top: 20%;
+    left: 27.7%;
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-size: 150%;
+    color: #ffffffb1;
+}   
+
+#pla{
+    position: fixed;
+    top: 33%;
+    left: 31.5%;
+    height: 3%;
+    width: 7%;
+    padding-top: 4px;
+    border-radius: 15px;
+    background-color: #0385bd;
+    text-decoration: none;
+    color: #fff;
+    font-family: Goldman;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#pla:hover{
+    position: fixed;
+    top: 33%;
+    left: 31.5%;
+    height: 3%;
+    width: 7%;
+    padding-top: 4px;
+    border-radius: 15px;
+    background-color: #0385bd;
+    text-decoration: underline;
+    color: #fff;
+    font-family: Goldman;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#plai{
+    position: relative;
+    left: 73%;
+    top: 2px;
+    height: 60%;
+}
+#artist{
+    position: fixed;
+    top: 36%;
+    left: 32%;
+    width: 74px;
+    height: 11px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#ali{
+    position: fixed;
+    left: 70%;
+    bottom: 58%;
+    height: 43%;
+    width: 31%;
+}
+#fai{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#fa{
+    position: absolute;
+    top: 43.7%;
+    left: 15%;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#alntext{
+    position: absolute;
+    top: 43.7%;
+    left: 23%;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#ffd1{
+    position: absolute;
+    height: 30px;
+    top: 45%;
+    left: 36% ;
+}
+#ffd1:hover{
+    position: absolute;
+    position: absolute;
+    background-color: #0385bd;
+    height: 30px;
+    top: 45%;
+    left: 36% ;
+}
+
+#pause{
+    position: absolute;
+    height: 30px;
+    top: 45%;
+    left: 40% ;
+}
+#pause:hover{
+    position: absolute;
+    background-color: #0385bd;
+    height: 30px;
+    top: 45%;
+    left: 40% ;
+}
+#fbd1{
+    position: absolute;
+    height: 30px;
+    top: 45%;
+    left: 44% ;
+}
+#fbd1:hover{
+    position: absolute;
+    background-color: #0385bd;
+    height: 30px;
+    top: 45%;
+    left: 44% ;
+}
+#time{
+    position: absolute;
+    top: 43.7%;
+    left: 53%;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+
+
+
+.faded1{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    background-color: #272A3D;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+.faded1:hover{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    background-color: #383A49;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+
+#fai1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#play1{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40%;
+}
+
+#alntext1{
+    position: absolute;
+    left: 43%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+
+#fa1{
+    position: absolute;
+    left: 19%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#time1{
+    position: absolute;
+    left: 85%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.faded2{
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    background-color: #272A3D;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+.faded2:hover{
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    background-color: #383A49;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+
+#fai2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#play2{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40%;
+}
+
+#alntext2{
+    position: absolute;
+    left: 43%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#fa2{
+    position: absolute;
+    left: 19%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#time2{
+    position: absolute;
+    left: 85%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.faded3{
+    position: absolute;
+    top: 64%;
+    left: 32%;
+    background-color: #272A3D;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+.faded3:hover{
+    position: absolute;
+    top: 64%;
+    left: 32%;
+    background-color: #383A49;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+
+#fai3{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#play3{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40%;
+}
+
+#alntext3{
+    position: absolute;
+    left: 43%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#fa3{
+    position: absolute;
+    left: 19%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#time3{
+    position: absolute;
+    left: 85%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.faded4{
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    background-color: #272A3D;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+.faded4:hover{
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    background-color: #383A49;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+
+#fai4{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#play4{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40%;
+}
+
+#alntext4{
+    position: absolute;
+    left: 43%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#fa4{
+    position: absolute;
+    left: 19%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#time4{
+    position: absolute;
+    left: 85%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.faded5{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    background-color: #272A3D;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+.faded5:hover{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    background-color: #383A49;
+    height: 5.8%;
+    width:49%;
+    border-radius: 5px;
+}
+
+#fai5{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+#play5{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40%;
+}
+
+#alntext5{
+    position: absolute;
+    left: 43%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#fa5{
+    position: absolute;
+    left: 19%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+
+#time5{
+    position: absolute;
+    left: 85%;
+    top: 1px;
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+}
+#fai6{
+    position: absolute;
+    top: 49%;
+    left: 82%;
+    height: 30%;
+    border-radius: 5px;
+}
+.controll{
+    position: relative;
+    top: 770px;
+    left: 50%;
+
+}
+#frd{
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 62%;
+}
+#bcd{
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
